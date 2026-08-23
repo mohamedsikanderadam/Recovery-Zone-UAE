@@ -32,6 +32,7 @@ const FRESHA_URL = '';
       drawer.setAttribute('inert', '');
     }
     backdrop.hidden = !open;
+    document.documentElement.classList.toggle('locked', open);
     document.body.classList.toggle('locked', open);
     openBtn.setAttribute('aria-expanded', String(open));
     if (open) {

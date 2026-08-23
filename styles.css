@@ -37,11 +37,11 @@ body {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
-body.locked { overflow: hidden; }
+html.locked, body.locked { overflow: hidden; }
 
 h1, h2, h3 { margin: 0; font-family: var(--display); line-height: 1.12; letter-spacing: -.015em; font-weight: 700; }
 p { margin: 0; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; }
 button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 a, button, summary { -webkit-tap-highlight-color: transparent; }
