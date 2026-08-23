@@ -25,7 +25,7 @@
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 74px; }
-html, body { margin: 0; max-width: 100%; overflow-x: hidden; }
+html, body { margin: 0; max-width: 100%; overflow-x: clip; }
 
 body {
   font-family: var(--sans);
