@@ -37,9 +37,9 @@ const FRESHA_URL = '';
     openBtn.setAttribute('aria-expanded', String(open));
     if (open) {
       const first = drawer.querySelector('a');
-      if (first) first.focus();
+      if (first) first.focus({ preventScroll: true });
     } else {
-      openBtn.focus();
+      openBtn.focus({ preventScroll: true });
     }
   }
 
