@@ -32,13 +32,14 @@ const FRESHA_URL = '';
       drawer.setAttribute('inert', '');
     }
     backdrop.hidden = !open;
+    document.documentElement.classList.toggle('locked', open);
     document.body.classList.toggle('locked', open);
     openBtn.setAttribute('aria-expanded', String(open));
     if (open) {
       const first = drawer.querySelector('a');
-      if (first) first.focus();
+      if (first) first.focus({ preventScroll: true });
     } else {
-      openBtn.focus();
+      openBtn.focus({ preventScroll: true });
     }
   }
 
