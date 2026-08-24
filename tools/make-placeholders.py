@@ -35,11 +35,11 @@ SHOTS = [
 QUIET_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{label} placeholder">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#dfe3de"/>
-      <stop offset="1" stop-color="#b8c4bf"/>
+      <stop offset="0" stop-color="#e2e6ec"/>
+      <stop offset="1" stop-color="#bcc4cf"/>
     </linearGradient>
     <pattern id="p" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
-      <line x1="0" y1="0" x2="0" y2="18" stroke="#0f3b36" stroke-opacity=".045" stroke-width="8"/>
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#0e1114" stroke-opacity=".045" stroke-width="8"/>
     </pattern>
   </defs>
   <rect width="{w}" height="{h}" fill="url(#g)"/>
@@ -50,20 +50,20 @@ QUIET_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}
 TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{label} placeholder">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e8e6e0"/>
-      <stop offset="1" stop-color="#cfd6d2"/>
+      <stop offset="0" stop-color="#e9ebef"/>
+      <stop offset="1" stop-color="#cfd4dc"/>
     </linearGradient>
     <pattern id="p" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
       <rect width="14" height="14" fill="none"/>
-      <line x1="0" y1="0" x2="0" y2="14" stroke="#0f3b36" stroke-opacity=".05" stroke-width="6"/>
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#0e1114" stroke-opacity=".05" stroke-width="6"/>
     </pattern>
   </defs>
   <rect width="{w}" height="{h}" fill="url(#g)"/>
   <rect width="{w}" height="{h}" fill="url(#p)"/>
-  <rect x="{m}" y="{m}" width="{iw}" height="{ih}" fill="none" stroke="#0f3b36" stroke-opacity=".22" stroke-width="2" stroke-dasharray="10 8"/>
-  <text x="50%" y="{ty}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{fs}" font-weight="700" letter-spacing="{ls}" fill="#0f3b36" fill-opacity=".62">{label_uc}</text>
-  <text x="50%" y="{sy}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{sfs}" font-weight="500" fill="#0f3b36" fill-opacity=".45">{brief}</text>
-  <text x="50%" y="{ny}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{sfs}" font-weight="600" letter-spacing="3" fill="#0f3b36" fill-opacity=".3">PHOTOGRAPHY PENDING</text>
+  <rect x="{m}" y="{m}" width="{iw}" height="{ih}" fill="none" stroke="#0e1114" stroke-opacity=".22" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="50%" y="{ty}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{fs}" font-weight="700" letter-spacing="{ls}" fill="#0e1114" fill-opacity=".62">{label_uc}</text>
+  <text x="50%" y="{sy}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{sfs}" font-weight="500" fill="#0e1114" fill-opacity=".45">{brief}</text>
+  <text x="50%" y="{ny}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="{sfs}" font-weight="600" letter-spacing="3" fill="#0e1114" fill-opacity=".3">PHOTOGRAPHY PENDING</text>
 </svg>
 """
 
