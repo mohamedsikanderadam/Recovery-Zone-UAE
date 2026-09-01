@@ -3,23 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Recovery Zone UAE | Clinician-led recovery &amp; mobility studio</title>
-<meta name="description" content="Clinician-led recovery and mobility studio. Massage, contrast therapy, stretch and mobility — every session matched to an assessment, not booked blind.">
+<title>The Recovery Zone | Recovery &amp; mobility studio, Sharjah</title>
+<meta name="description" content="Massage, sauna, ice bath and mobility under one roof in Muwaileh, Sharjah. Built for performance. Made for everyone.">
 <meta name="theme-color" content="#0E1114">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Recovery Zone UAE | Clinician-led recovery &amp; mobility studio">
-<meta property="og:description" content="Massage, contrast therapy, stretch and mobility. Assessment first, always.">
+<meta property="og:title" content="The Recovery Zone | Recovery &amp; mobility studio, Sharjah">
+<meta property="og:description" content="Massage · Sauna · Ice Bath · Mobility. Sore today. Strong tomorrow.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Jost:wght@300;400;500&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="header">
-  <a class="brand" href="#top" aria-label="Recovery Zone UAE home">
-    <span class="brand-mark" aria-hidden="true"></span>
-    <span class="brand-word">recovery<b>zone</b></span>
+<header class="header" data-header>
+  <a class="brand" href="#top" aria-label="The Recovery Zone home">
+    <span class="brand-word">Recovery <span>Zone</span></span>
   </a>
   <!-- PLACEHOLDER: replace every data-fresha href with the real Fresha booking URL -->
   <a class="header-book" data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a>
@@ -31,308 +33,237 @@
 <div class="drawer-backdrop" data-menu-close hidden></div>
 <nav class="drawer" id="navdrawer" aria-label="Sections" aria-hidden="true" inert>
   <button class="drawer-close" type="button" data-menu-close aria-label="Close menu">&times;</button>
+  <a href="#studio">The studio</a>
   <a href="#massage">Massage</a>
   <a href="#contrast">Contrast Zone</a>
-  <a href="#stretch">Consultation &amp; Stretch</a>
-  <a href="#range">Treatments</a>
+  <a href="#stretch">Stretch &amp; Mobility</a>
+  <a href="#treatments">Treatments</a>
   <a href="#book">How to book</a>
   <a class="drawer-cta" data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a>
 </nav>
 
 <main id="main">
-  <div class="wrap" id="top">
 
-    <section class="hero">
-      <p class="hero-eyebrow">Recovery &amp; mobility studio &middot; <span data-placeholder="location">Sharjah, UAE</span></p>
-      <h1 class="hero-title">Recovery, <em>assessed.</em></h1>
-      <p class="hero-sub">Three zones — massage, contrast, mobility — run by qualified therapists. Every session starts with finding out what your body is actually doing.</p>
-    </section>
+  <section class="hero" id="top">
+    <img class="hero-img" src="assets/placeholders/hero.svg" alt="Studio interior: recovery suites, low light, wide shot" width="2400" height="1350" fetchpriority="high" decoding="async">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Recovery &amp; mobility studio &middot; Muwaileh, Sharjah</p>
+      <h1 class="hero-title">Sore today.<br>Strong tomorrow.</h1>
+    </div>
+    <a class="hero-scroll" href="#studio" aria-label="Scroll to the studio">Scroll</a>
+  </section>
 
-    <section class="featured" aria-label="Flagship zones">
-      <a class="feat-card" href="#massage">
-        <img src="assets/placeholders/massage-zone.svg" alt="Massage zone: treatment room with therapist working, low warm light" width="1600" height="1000" fetchpriority="high" decoding="async">
-        <span class="feat-copy"><strong>Massage</strong><span>Hands-on treatment matched to training load, injury or desk strain</span></span>
-        <span class="feat-arrow" aria-hidden="true"></span>
-      </a>
-      <a class="feat-card" href="#contrast">
-        <img src="assets/placeholders/contrast-zone.svg" alt="Contrast zone: sauna and ice bath, studio interior, wide shot" width="1600" height="1000" decoding="async">
-        <span class="feat-copy"><strong>Contrast Zone</strong><span>Sauna, ice bath and the combined protocol between them</span></span>
-        <span class="feat-arrow" aria-hidden="true"></span>
-      </a>
-    </section>
+  <section class="lede" id="studio" aria-labelledby="lede-h">
+    <div class="wrap split">
+      <h2 class="accent-head" id="lede-h">Built for performance.<br>Made for everyone.</h2>
+      <div class="split-body">
+        <p>The Recovery Zone is a recovery and mobility studio in Muwaileh, Sharjah. Massage, sauna, ice bath and stretch sit under one roof, and a therapist decides which of them you actually need before anything starts.</p>
+        <p class="micro">Recovery is for everyone</p>
+        <p>Whether you train hard, work long hours, or simply want to feel better — the session is built around what your body is doing right now, not off a fixed menu.</p>
+        <a class="link-cta" data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="tiles" aria-label="Standout treatments">
-      <a class="tile" href="#massage">
-        <img src="assets/placeholders/sports-massage.svg" alt="Sports massage: hamstring work on an athlete" width="900" height="700" loading="lazy" decoding="async">
-        <span class="tile-label">Sports <i>Massage</i></span>
-      </a>
-      <a class="tile" href="#massage">
-        <img src="assets/placeholders/deep-tissue.svg" alt="Deep tissue massage: forearm pressure into the upper back" width="900" height="700" loading="lazy" decoding="async">
-        <span class="tile-label">Deep <i>Tissue</i></span>
-      </a>
-      <a class="tile" href="#contrast">
-        <img src="assets/placeholders/ice-bath.svg" alt="Ice bath: two-person plunge, water surface detail" width="900" height="700" loading="lazy" decoding="async">
-        <span class="tile-label">Ice <i>Bath</i></span>
-      </a>
-      <a class="tile" href="#stretch">
-        <img src="assets/placeholders/stretch-zone.svg" alt="Stretch zone: assisted hip stretch on the mat" width="900" height="700" loading="lazy" decoding="async">
-        <span class="tile-label">Stretch &amp; <i>Mobility</i></span>
-      </a>
-    </section>
+  <!-- PLACEHOLDER: swap in real figures. Copy is written to survive the swap. -->
+  <section class="figures" aria-label="At a glance">
+    <div class="wrap figures-grid">
+      <p><em data-placeholder="stat">X+</em> sessions<br>delivered</p>
+      <p><em data-placeholder="stat">X</em> qualified<br>therapists</p>
+      <p><em>4</em> zones under<br>one roof</p>
+      <p><em data-placeholder="stat">X</em> years<br>in the UAE</p>
+    </div>
+  </section>
 
-    <!-- PLACEHOLDER: swap in real figures. Copy is written to survive the swap. -->
-    <section class="stats" aria-label="Track record">
-      <div><b data-placeholder="stat">X,XXX+</b><span>Sessions delivered</span></div>
-      <div><b data-placeholder="stat">X</b><span>Qualified therapists</span></div>
-      <div><b>100%</b><span>Assessment-first, always</span></div>
-      <div><b data-placeholder="stat">X</b><span>Years in the UAE</span></div>
-    </section>
-
-    <section class="about" aria-labelledby="about-h">
-      <p class="eyebrow">The studio</p>
-      <h2 id="about-h">Not a spa menu. A treatment plan.</h2>
-      <p>Recovery Zone UAE is a clinician-led recovery and mobility studio. Three zones sit under one roof: <strong>massage</strong> for hands-on soft tissue work, the <strong>contrast zone</strong> for sauna and cold, and <strong>consultation and stretch</strong> for assessment and mobility.</p>
-      <p>You do not pick a treatment off a board and hope. A therapist assesses first — what you train, what hurts, what has stopped moving — then the session is built from what they find. Same philosophy whether you are mid-season, mid-rehab, or just sitting at a desk too long.</p>
-    </section>
-  </div>
-
-  <section class="zone zone-massage" id="massage" aria-labelledby="massage-h">
+  <section class="quote" aria-label="What clients say">
     <div class="wrap">
-      <p class="eyebrow">Zone 01</p>
-      <h2 id="massage-h">Massage</h2>
-      <p class="zone-lead">Five hands-on treatments. Which one you get is decided at assessment, and a session can move between them if the tissue asks for it.</p>
-      <ul class="menu-list">
-        <li>
-          <h3>Deep Tissue Release</h3>
-          <p>Slow, sustained pressure into the deeper layers. For chronic tightness that surface work never reaches.</p>
-        </li>
-        <li>
-          <h3>Sports Massage</h3>
-          <p>Built around training load — before competition, after it, and for the overuse strain in between.</p>
-        </li>
-        <li>
-          <h3>Full Body Massage</h3>
-          <p>Head-to-toe coverage when the load is general rather than local, and nothing single is flaring.</p>
-        </li>
-        <li>
-          <h3>Relaxation Massage</h3>
-          <p>Lighter, continuous work aimed at down-regulating a nervous system stuck in high gear.</p>
-        </li>
-        <li>
-          <h3>Trigger Point Massage</h3>
-          <p>Direct pressure held on specific referring points until they release. Precise, local, and deliberately uncomfortable.</p>
-        </li>
+      <p class="micro center">Overheard at the Recovery Zone</p>
+      <!-- PLACEHOLDER: real client quote to replace this. -->
+      <blockquote data-placeholder="testimonial">&ldquo;Came in for one stiff shoulder, left with a plan for the whole week. Nobody sold me anything I did not need.&rdquo;</blockquote>
+      <p class="quote-note" data-placeholder="testimonial">Placeholder quote — real client words to be supplied.</p>
+    </div>
+  </section>
+
+  <section class="services" aria-labelledby="services-h">
+    <div class="wrap split">
+      <h2 class="accent-head" id="services-h">Our zones</h2>
+      <div class="split-body">
+        <p>Four spaces, one philosophy. Recovery suites for hands-on treatment, the contrast zone for heat and cold, and a stretch and mobility floor for the work that keeps the results.</p>
+        <a class="link-cta" href="#treatments">See the full treatment list</a>
+      </div>
+    </div>
+    <div class="wrap svc-layout">
+      <div class="svc-media">
+        <img data-svc-img src="assets/placeholders/suites.svg" alt="Recovery suites: private treatment room" width="1600" height="1200" loading="lazy" decoding="async">
+      </div>
+      <ul class="svc-list">
+        <li><a href="#massage" data-svc="assets/placeholders/massage-zone.svg"><span class="svc-name">Massage</span><span class="svc-sub">Deep tissue, sports, trigger point</span></a></li>
+        <li><a href="#contrast" data-svc="assets/placeholders/contrast-zone.svg"><span class="svc-name">Contrast Zone</span><span class="svc-sub">Sauna, ice bath and the protocol between</span></a></li>
+        <li><a href="#stretch" data-svc="assets/placeholders/stretch-zone.svg"><span class="svc-name">Stretch &amp; Mobility</span><span class="svc-sub">Assisted stretching and loaded range work</span></a></li>
+        <li><a href="#massage" data-svc="assets/placeholders/suites.svg"><span class="svc-name">Recovery Suites</span><span class="svc-sub">Private rooms and the massage chair</span></a></li>
       </ul>
-      <p class="zone-note">Descriptions are working copy — <span data-placeholder="copy">final treatment copy to be supplied</span>.</p>
     </div>
   </section>
 
-  <section class="zone zone-contrast" id="contrast" aria-labelledby="contrast-h">
-    <div class="wrap">
-      <p class="eyebrow">Zone 02</p>
+  <section class="band" id="massage" aria-labelledby="massage-h">
+    <div class="band-media">
+      <img src="assets/placeholders/massage-zone.svg" alt="Massage: treatment suite, therapist working, low warm light" width="1600" height="1200" loading="lazy" decoding="async">
+    </div>
+    <div class="band-copy">
+      <p class="micro">Zone 01</p>
+      <h2 id="massage-h">Massage</h2>
+      <p class="band-lead">Five hands-on treatments. Which one you get is decided at assessment, and a session can move between them if the tissue asks for it.</p>
+      <ul class="plain-list">
+        <li><b>Deep Tissue Release</b><span>Slow, sustained pressure into the deeper layers, for tightness that surface work never reaches.</span></li>
+        <li><b>Sports Massage</b><span>Built around training load — before competition, after it, and for overuse strain in between.</span></li>
+        <li><b>Full Body Massage</b><span>Head-to-toe coverage when the load is general rather than local.</span></li>
+        <li><b>Relaxation Massage</b><span>Lighter, continuous work aimed at a nervous system stuck in high gear.</span></li>
+        <li><b>Trigger Point Massage</b><span>Direct pressure held on referring points until they release. Precise and local.</span></li>
+      </ul>
+      <p class="band-note" data-placeholder="copy">Working copy — final treatment descriptions to be supplied.</p>
+    </div>
+  </section>
+
+  <section class="band band-dark band-reverse" id="contrast" aria-labelledby="contrast-h">
+    <div class="band-media">
+      <img src="assets/placeholders/contrast-zone.svg" alt="Contrast zone: sauna and ice bath side by side" width="1600" height="1200" loading="lazy" decoding="async">
+    </div>
+    <div class="band-copy">
+      <p class="micro">Zone 02</p>
       <h2 id="contrast-h">The Contrast Zone</h2>
-      <p class="zone-lead">Heat, cold, and the swing between the two. Used after training, between sessions, or as a protocol in its own right.</p>
-      <div class="contrast-grid">
-        <article class="cz-card">
-          <img src="assets/placeholders/sauna.svg" alt="Sauna: five-person timber interior" width="1200" height="900" loading="lazy" decoding="async">
-          <div class="cz-body">
-            <h3>Sauna</h3>
-            <p class="cz-meta">Up to 5 people</p>
-            <p>Dry heat to raise core temperature and open circulation. Booked alone or as the first half of a contrast protocol.</p>
-          </div>
-        </article>
-        <article class="cz-card">
-          <img src="assets/placeholders/ice-bath-card.svg" alt="Ice bath: two-person plunge, water surface detail" width="1200" height="900" loading="lazy" decoding="async">
-          <div class="cz-body">
-            <h3>Ice Bath</h3>
-            <p class="cz-meta">Up to 2 people</p>
-            <p>Controlled cold immersion with a therapist setting the exposure. For post-session load and inflammation management.</p>
-          </div>
-        </article>
-        <article class="cz-card">
-          <img src="assets/placeholders/contrast-bath.svg" alt="Contrast bath: client moving from sauna to ice bath" width="1200" height="900" loading="lazy" decoding="async">
-          <div class="cz-body">
-            <h3>Contrast Bath</h3>
-            <p class="cz-meta">Sauna + ice bath protocol</p>
-            <p>Alternating heat and cold in timed rounds. The cycle is prescribed — how many rounds and how long is not left to you.</p>
-          </div>
-        </article>
-        <article class="cz-card">
-          <img src="assets/placeholders/massage-chair.svg" alt="Massage chair in the recovery lounge" width="1200" height="900" loading="lazy" decoding="async">
-          <div class="cz-body">
-            <h3>Massage Chair</h3>
-            <p class="cz-meta">Between rounds or standalone</p>
-            <p>Mechanical percussion and compression. Useful as a warm-down between contrast rounds or on a light recovery day.</p>
-          </div>
-        </article>
-      </div>
+      <p class="band-lead">Heat, cold, and the swing between the two. Used after training, between sessions, or as a protocol in its own right.</p>
+      <ul class="plain-list">
+        <li><b>Sauna</b><span>Up to 5 people. Dry heat to raise core temperature and open circulation.</span></li>
+        <li><b>Ice Bath</b><span>Up to 2 people. Controlled cold immersion with a therapist setting the exposure.</span></li>
+        <li><b>Contrast Bath</b><span>Alternating heat and cold in timed rounds. The cycle is prescribed, not left to you.</span></li>
+        <li><b>Massage Chair</b><span>Percussion and compression, as a warm-down between rounds or on a light day.</span></li>
+      </ul>
     </div>
   </section>
 
-  <section class="zone zone-stretch" id="stretch" aria-labelledby="stretch-h">
-    <div class="wrap">
-      <div class="stretch-layout">
-        <div>
-          <p class="eyebrow">Zone 03</p>
-          <h2 id="stretch-h">Consultation &amp; Stretch</h2>
-          <p class="zone-lead">Where the studio works out what you actually need. Nothing else gets booked blind.</p>
-          <ul class="tick-list">
-            <li><strong>Consultation area</strong> — history, training load, and a movement screen. Ten minutes that decide the rest of the session.</li>
-            <li><strong>Deep Stretch area</strong> — therapist-guided stretching that takes joints through range you cannot reach on your own.</li>
-            <li><strong>Mobility work</strong> — loaded drills to hold the range you just gained, so it survives the week.</li>
-          </ul>
-          <p class="pull">Assessment first, always.</p>
-        </div>
-        <div class="stretch-media">
-          <img src="assets/placeholders/consultation.svg" alt="Consultation: therapist and client at the assessment desk" width="1200" height="900" loading="lazy" decoding="async">
-          <img src="assets/placeholders/mobility.svg" alt="Mobility work: loaded shoulder mobility drill" width="1200" height="900" loading="lazy" decoding="async">
-        </div>
-      </div>
+  <section class="band" id="stretch" aria-labelledby="stretch-h">
+    <div class="band-media">
+      <img src="assets/placeholders/stretch-zone.svg" alt="Stretch zone: assisted hip stretch on the mat" width="1600" height="1200" loading="lazy" decoding="async">
+    </div>
+    <div class="band-copy">
+      <p class="micro">Zone 03</p>
+      <h2 id="stretch-h">Stretch &amp; Mobility</h2>
+      <p class="band-lead">Where the studio works out what you actually need, and where the range you gain gets made permanent.</p>
+      <ul class="plain-list">
+        <li><b>Consultation</b><span>History, training load and a movement screen. Ten minutes that decide the rest of the session.</span></li>
+        <li><b>Deep Stretch</b><span>Therapist-guided stretching through range you cannot reach on your own.</span></li>
+        <li><b>Mobility work</b><span>Loaded drills to hold the range you just gained, so it survives the week.</span></li>
+      </ul>
+      <p class="band-pull">Assessment first, always.</p>
     </div>
   </section>
 
-  <section class="range" id="range" aria-labelledby="range-h">
-    <div class="wrap">
-      <div class="range-head">
-        <div>
-          <p class="eyebrow light">The full menu</p>
-          <h2 id="range-h">Explore our treatments</h2>
-        </div>
-        <a class="range-seeall" href="#treatments">See full treatment list</a>
+  <section class="treatments" id="treatments" aria-labelledby="treatments-h">
+    <div class="wrap split">
+      <h2 class="accent-head" id="treatments-h">The full menu</h2>
+      <div class="split-body">
+        <p>Seven hands-on treatments, delivered by qualified therapists and chosen for what your body is actually doing — training, rehabilitating, or sitting still for too long. Working pressure is listed so you know what you are walking into.</p>
       </div>
-      <div class="range-grid">
-        <a class="range-card" href="#t-deep-tissue"><b>Deep Tissue Massage</b><span class="badge b-deep">Deep</span></a>
-        <a class="range-card" href="#t-sports"><b>Sports Massage</b><span class="badge b-firm">Firm</span></a>
-        <a class="range-card" href="#t-lymphatic"><b>Lymphatic Drainage</b><span class="badge b-light">Light</span></a>
-        <a class="range-card" href="#t-stretching"><b>Assisted Stretching</b><span class="badge b-light">Light</span></a>
-        <a class="range-card" href="#t-myofascial"><b>Myofascial Release</b><span class="badge b-moderate">Moderate</span></a>
-        <a class="range-card" href="#t-decompression"><b>Myofascial Decompression</b><span class="badge b-negative">Negative</span></a>
-        <a class="range-card" href="#t-kinetic"><b>Kinetic Release Therapy</b><span class="badge b-firm">Firm</span></a>
-        <a class="range-card range-card-alt" href="#treatments"><b>All seven, in detail</b><span class="range-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="wrap tx-list">
+      <details class="tx" id="t-deep-tissue">
+        <summary><span class="tx-name">Deep Tissue Massage</span><span class="tx-pressure">Deep</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Slow, sustained pressure worked into the deeper muscle layers. For chronic tightness that surface work never reaches — long-standing back, neck and calf load that has stopped responding to anything lighter.</p>
+      </details>
+      <details class="tx" id="t-sports">
+        <summary><span class="tx-name">Sports Massage</span><span class="tx-pressure">Firm</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Built around training load: preparation before competition, recovery after it, and management of overuse strain in between. Paced to where you are in your week, not to a fixed routine.</p>
+      </details>
+      <details class="tx" id="t-lymphatic">
+        <summary><span class="tx-name">Lymphatic Drainage Massage</span><span class="tx-pressure">Light</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Light, rhythmic strokes worked in the direction of lymph flow. Used for post-training and post-operative swelling and fluid retention, where pressure would only make things worse.</p>
+      </details>
+      <details class="tx" id="t-stretching">
+        <summary><span class="tx-name">Assisted Stretching</span><span class="tx-pressure">Light</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Therapist-guided stretching that takes joints through range you cannot reach on your own. Stiff hips, locked shoulders, short hamstrings — held long enough to change something.</p>
+      </details>
+      <details class="tx" id="t-myofascial">
+        <summary><span class="tx-name">Myofascial Release</span><span class="tx-pressure">Moderate</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Sustained tension held on restricted fascia until it gives. The aim is glide between tissue layers rather than forcing the muscle underneath.</p>
+      </details>
+      <details class="tx" id="t-decompression">
+        <summary><span class="tx-name">Myofascial Decompression</span><span class="tx-pressure">Negative</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Cupping-based negative pressure. Tissue is lifted away from the layers beneath instead of being compressed into them — useful over stubborn adhesions and scar tissue.</p>
+      </details>
+      <details class="tx" id="t-kinetic">
+        <summary><span class="tx-name">Kinetic Release Therapy</span><span class="tx-pressure">Firm</span><span class="tx-chev" aria-hidden="true"></span></summary>
+        <p>Pressure applied while the limb is moved, so tissue releases through the pattern it actually has to work in — not while lying still.</p>
+      </details>
+    </div>
+    <p class="wrap tx-key"><b>Light &rarr; Deep</b> is pressure applied into the tissue. <b>Negative</b> means tissue is lifted, not compressed. Every session begins with an assessment.</p>
+  </section>
+
+  <section class="book" id="book" aria-labelledby="book-h">
+    <div class="wrap split">
+      <h2 class="accent-head" id="book-h">How to book</h2>
+      <div class="split-body">
+        <ol class="steps">
+          <li><b>01</b><span><b class="step-h">Book on Fresha</b>All bookings run through Fresha. Pick a slot — you do not need to know which treatment you need.</span></li>
+          <li><b>02</b><span><b class="step-h">We match treatment to what we find</b>A therapist screens you on arrival and builds the session around the findings.</span></li>
+          <li><b>03</b><span><b class="step-h">You train, recover, repeat</b>You leave with what to do next, and when to come back.</span></li>
+        </ol>
+        <!-- PLACEHOLDER: Fresha booking widget.
+             Fresha issues an embeddable widget/iframe per venue from the partner dashboard
+             (Marketplace > Online booking > Website widget). Drop the supplied iframe or
+             <script> snippet in place of this block; the button below stays as the fallback. -->
+        <div class="fresha-embed" data-placeholder="fresha-widget">
+          <b>Fresha booking widget slot</b>
+          <p>The embeddable widget replaces this panel once the studio's Fresha venue link is supplied. Until then the button below is the booking path.</p>
+        </div>
+        <a class="btn" data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a>
+        <p class="book-note" data-placeholder="fresha-url">Placeholder link — the real Fresha page URL is still to be supplied.</p>
       </div>
     </div>
   </section>
-
-  <div class="wrap">
-    <section class="treatments" id="treatments" aria-labelledby="treatments-h">
-      <p class="eyebrow">In detail</p>
-      <h2 id="treatments-h">Seven hands-on treatments</h2>
-      <p class="treatments-lead">Delivered by qualified therapists and chosen for what your body is actually doing — training, rehabilitating, or sitting still for too long. Working pressure is listed so you know what you are walking into.</p>
-      <div class="tx-list">
-        <details class="tx" id="t-deep-tissue" open>
-          <summary><span class="tx-name">Deep Tissue Massage</span><span class="badge b-deep">Deep</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Slow, sustained pressure worked into the deeper muscle layers. For chronic tightness that surface work never reaches — long-standing back, neck and calf load that has stopped responding to anything lighter.</p>
-        </details>
-        <details class="tx" id="t-sports">
-          <summary><span class="tx-name">Sports Massage</span><span class="badge b-firm">Firm</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Built around training load: preparation before competition, recovery after it, and management of overuse strain in between. Paced to where you are in your week, not to a fixed routine.</p>
-        </details>
-        <details class="tx" id="t-lymphatic">
-          <summary><span class="tx-name">Lymphatic Drainage Massage</span><span class="badge b-light">Light</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Light, rhythmic strokes worked in the direction of lymph flow. Used for post-training and post-operative swelling and fluid retention, where pressure would only make things worse.</p>
-        </details>
-        <details class="tx" id="t-stretching">
-          <summary><span class="tx-name">Assisted Stretching</span><span class="badge b-light">Light</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Therapist-guided stretching that takes joints through range you cannot reach on your own. Stiff hips, locked shoulders, short hamstrings — held long enough to change something.</p>
-        </details>
-        <details class="tx" id="t-myofascial">
-          <summary><span class="tx-name">Myofascial Release</span><span class="badge b-moderate">Moderate</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Sustained tension held on restricted fascia until it gives. The aim is glide between tissue layers rather than forcing the muscle underneath.</p>
-        </details>
-        <details class="tx" id="t-decompression">
-          <summary><span class="tx-name">Myofascial Decompression</span><span class="badge b-negative">Negative</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Cupping-based negative pressure. Tissue is lifted away from the layers beneath instead of being compressed into them — useful over stubborn adhesions and scar tissue.</p>
-        </details>
-        <details class="tx" id="t-kinetic">
-          <summary><span class="tx-name">Kinetic Release Therapy</span><span class="badge b-firm">Firm</span><span class="tx-chev" aria-hidden="true"></span></summary>
-          <p>Pressure applied while the limb is moved, so tissue releases through the pattern it actually has to work in — not while lying still.</p>
-        </details>
-      </div>
-      <div class="pressure-key">
-        <div><b>Light &rarr; Deep</b><span>Pressure applied into the tissue.</span></div>
-        <div><b>Negative</b><span>Tissue is lifted, not compressed.</span></div>
-        <div><b>Every session</b><span>Begins with an assessment. Treatment is matched to findings, not booked blind.</span></div>
-      </div>
-    </section>
-
-    <section class="book" id="book" aria-labelledby="book-h">
-      <p class="eyebrow">How to book</p>
-      <h2 id="book-h">Three steps, one link.</h2>
-      <ol class="steps">
-        <li><b>01</b><h3>Book your assessment on Fresha</h3><p>All bookings run through Fresha. Pick a slot — you do not need to know which treatment you need.</p></li>
-        <li><b>02</b><h3>We match treatment to what we find</h3><p>A therapist screens you on arrival and builds the session around the findings.</p></li>
-        <li><b>03</b><h3>You train, recover, repeat</h3><p>You leave with what to do next, and when to come back.</p></li>
-      </ol>
-      <!-- PLACEHOLDER: Fresha booking widget.
-           Fresha issues an embeddable widget/iframe per venue from the partner dashboard
-           (Marketplace > Online booking > Website widget). Drop the supplied iframe or
-           <script> snippet in place of this block; the button below stays as the fallback. -->
-      <div class="fresha-embed" data-placeholder="fresha-widget">
-        <p><b>Fresha booking widget slot</b></p>
-        <p>The embeddable widget replaces this panel once the studio's Fresha venue link is supplied. Until then the button below is the booking path.</p>
-      </div>
-      <a class="btn btn-primary btn-block" data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a>
-      <p class="book-placeholder" data-placeholder="fresha-url">Placeholder link — the real Fresha page URL is still to be supplied.</p>
-      <div class="book-meta">
-        <div>
-          <span class="bm-label">Studio</span>
-          <p data-placeholder="address">Recovery Zone UAE — Sharjah, UAE. Exact address to be confirmed.</p>
-        </div>
-        <div>
-          <span class="bm-label">Instagram</span>
-          <!-- PLACEHOLDER: UAE handle not live yet — pointing at the Birmingham sister page -->
-          <p><a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener">@the_recovery_room_birmingham</a> <span data-placeholder="instagram">(sister studio — UAE handle pending)</span></p>
-        </div>
-        <div>
-          <span class="bm-label">Contact</span>
-          <p data-placeholder="contact">Phone and email to be confirmed.</p>
-        </div>
-      </div>
-    </section>
-  </div>
 
   <section class="social" aria-labelledby="social-h">
-    <div class="wrap">
-      <div class="social-head">
-        <div>
-          <p class="eyebrow">From the studio</p>
-          <h2 id="social-h">Inside the zones</h2>
-        </div>
-        <a class="social-link" href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener">Follow on Instagram</a>
+    <div class="wrap split">
+      <h2 class="accent-head" id="social-h">Inside the zones</h2>
+      <div class="split-body">
+        <p>Day-to-day from the floor — treatments, contrast rounds and what the space actually looks like.</p>
+        <a class="link-cta" href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener">Follow @therecoveryzone.ae</a>
       </div>
-      <div class="ig-grid">
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-1.svg" alt="Ice bath entry, shot from above" width="800" height="800" loading="lazy" decoding="async"></a>
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-2.svg" alt="Therapist hands, deep tissue detail" width="800" height="800" loading="lazy" decoding="async"></a>
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-3.svg" alt="Sauna door, steam, low light" width="800" height="800" loading="lazy" decoding="async"></a>
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-4.svg" alt="Assisted stretch, side profile" width="800" height="800" loading="lazy" decoding="async"></a>
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-5.svg" alt="Studio signage detail" width="800" height="800" loading="lazy" decoding="async"></a>
-        <a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-6.svg" alt="Client post-session, towel, cold plunge" width="800" height="800" loading="lazy" decoding="async"></a>
-      </div>
-      <p class="social-placeholder" data-placeholder="instagram">Placeholder grid. Real feed and the Recovery Zone UAE handle to be wired in.</p>
     </div>
+    <div class="wrap ig-grid">
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-1.svg" alt="Ice bath entry, shot from above" width="800" height="800" loading="lazy" decoding="async"></a>
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-2.svg" alt="Therapist hands, deep tissue detail" width="800" height="800" loading="lazy" decoding="async"></a>
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-3.svg" alt="Sauna door, steam, low light" width="800" height="800" loading="lazy" decoding="async"></a>
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-4.svg" alt="Assisted stretch, side profile" width="800" height="800" loading="lazy" decoding="async"></a>
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-5.svg" alt="Studio signage detail" width="800" height="800" loading="lazy" decoding="async"></a>
+      <a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener"><img src="assets/placeholders/ig-6.svg" alt="Client post-session, towel, cold plunge" width="800" height="800" loading="lazy" decoding="async"></a>
+    </div>
+    <p class="wrap social-note" data-placeholder="instagram">Placeholder grid — real posts from @therecoveryzone.ae to be dropped in.</p>
   </section>
+
+  <p class="closing wrap">&ldquo;Move better. Feel better.&rdquo;</p>
 </main>
 
 <footer class="footer">
   <div class="wrap foot-inner">
     <div class="foot-col">
-      <span class="brand-word foot-word">recovery<b>zone</b></span>
-      <p class="foot-tag">Clinician-led. Assessment first, always.</p>
+      <span class="brand-word foot-word">Recovery <span>Zone</span></span>
+      <p class="foot-tag">Massage &middot; Sauna &middot; Ice Bath &middot; Mobility</p>
     </div>
     <div class="foot-col">
-      <span class="bm-label">Studio</span>
-      <p data-placeholder="address">Sharjah, UAE — exact address to be confirmed.</p>
-      <p data-placeholder="contact">Contact to be confirmed.</p>
+      <span class="micro">Studio</span>
+      <p><a href="https://www.google.com/maps/search/?api=1&amp;query=The+Recovery+Zone+Muwaileh+Commercial+Industrial+Area+Sharjah" target="_blank" rel="noopener">The Recovery Zone, Muwaileh Commercial, Industrial Area, Sharjah</a></p>
+      <p data-placeholder="hours">Opening hours to be confirmed.</p>
     </div>
     <div class="foot-col">
-      <span class="bm-label">Elsewhere</span>
-      <p><a href="https://www.instagram.com/the_recovery_room_birmingham/" target="_blank" rel="noopener">Instagram</a></p>
+      <span class="micro">Contact</span>
+      <p data-placeholder="contact">Phone and email to be confirmed.</p>
+      <p><a href="https://www.instagram.com/therecoveryzone.ae/" target="_blank" rel="noopener">@therecoveryzone.ae</a></p>
       <p><a data-fresha href="#book" target="_blank" rel="noopener">Book on Fresha</a></p>
     </div>
   </div>
   <div class="wrap foot-base">
-    <p>&copy; <span id="year">2026</span> Recovery Zone UAE.</p>
-    <p>Massage &middot; Contrast &middot; Mobility</p>
+    <p>&copy; <span id="year">2026</span> The Recovery Zone.</p>
+    <p>Built for performance. Made for everyone.</p>
   </div>
 </footer>
 
