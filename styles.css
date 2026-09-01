@@ -79,7 +79,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 40;
   display: flex; align-items: center; gap: .75rem;
-  padding: .85rem var(--gut);
+  padding: .85rem max(var(--gut), env(safe-area-inset-right)) .85rem max(var(--gut), env(safe-area-inset-left));
   color: #fff;
   transition: background .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease), padding .3s var(--ease);
   border-bottom: 1px solid transparent;
@@ -261,7 +261,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 [data-placeholder]:not(blockquote):not(.fresha-embed) { text-decoration: underline dotted var(--ink-faint); text-underline-offset: 4px; }
 
 @media (max-width: 400px) {
-  .header { padding: .7rem 1rem; gap: .5rem; }
+  .header { padding: .7rem max(1rem, env(safe-area-inset-right)) .7rem max(1rem, env(safe-area-inset-left)); gap: .5rem; }
   .brand-word { font-size: .86rem; letter-spacing: .12em; }
   .header-book { font-size: .58rem; letter-spacing: .12em; padding: 0 .7rem; min-height: 38px; }
   .menu-btn { padding: 12px 2px 12px 6px; }

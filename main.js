@@ -61,6 +61,7 @@ const FRESHA_URL = '';
     };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
   } else if (header) {
     header.classList.add('is-solid');
   }
@@ -71,9 +72,11 @@ const FRESHA_URL = '';
     const original = svcImg.getAttribute('src');
     document.querySelectorAll('[data-svc]').forEach((link) => {
       const show = () => { svcImg.src = link.dataset.svc; };
+      const restore = () => { svcImg.src = original; };
       link.addEventListener('mouseenter', show);
       link.addEventListener('focus', show);
-      link.addEventListener('mouseleave', () => { svcImg.src = original; });
+      link.addEventListener('mouseleave', restore);
+      link.addEventListener('blur', restore);
     });
   }
 
