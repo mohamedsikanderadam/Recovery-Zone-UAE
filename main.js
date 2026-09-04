@@ -1,4 +1,4 @@
-/* Recovery Zone UAE — minimal page behaviour. No dependencies. */
+/* The Recovery Zone — minimal page behaviour. No dependencies. */
 
 // PLACEHOLDER: set FRESHA_URL to the studio's real Fresha booking page.
 // Until it is set, every "Book on Fresha" control scrolls to the booking section
@@ -52,13 +52,33 @@ const FRESHA_URL = '';
     if (e.key === 'Escape' && drawer.classList.contains('is-open')) setDrawer(false);
   });
 
-  // Opening a treatment from the range grid should expand it, not just jump to it.
-  document.querySelectorAll('.range-card[href^="#t-"]').forEach((card) => {
-    card.addEventListener('click', () => {
-      const target = document.querySelector(card.getAttribute('href'));
-      if (target && target.tagName === 'DETAILS') target.open = true;
+  // The header sits over the hero image in white, and turns solid once past it.
+  const header = document.querySelector('[data-header]');
+  const hero = document.querySelector('.hero');
+  if (header && hero) {
+    const onScroll = () => {
+      header.classList.toggle('is-solid', window.scrollY > hero.offsetHeight - 90);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+  } else if (header) {
+    header.classList.add('is-solid');
+  }
+
+  // Hovering a zone in the list previews it in the sticky image beside it.
+  const svcImg = document.querySelector('[data-svc-img]');
+  if (svcImg) {
+    const original = svcImg.getAttribute('src');
+    document.querySelectorAll('[data-svc]').forEach((link) => {
+      const show = () => { svcImg.src = link.dataset.svc; };
+      const restore = () => { svcImg.src = original; };
+      link.addEventListener('mouseenter', show);
+      link.addEventListener('focus', show);
+      link.addEventListener('mouseleave', restore);
+      link.addEventListener('blur', restore);
     });
-  });
+  }
 
   const year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());
